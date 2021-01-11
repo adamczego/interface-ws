@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // v1
         Bird bird1 = new Bird("bird1", true);
         Bird bird2 = new Bird("bird2", true);
         Ladybird ladybird1 = new Ladybird("ladybird1", false);
@@ -24,7 +25,7 @@ public class Main {
 
 
 
-
+        // v2
         List<Animal> flyers = new ArrayList<Animal>(List.of(
             new Bird("bird1", true),
             new Bird("bird2", true),
@@ -38,7 +39,7 @@ public class Main {
 
     }
 
-
+    // v3
     public void fly() {
         Bird bird1 = new Bird("bird1", true);
         Bird bird2 = new Bird("bird2", true);
